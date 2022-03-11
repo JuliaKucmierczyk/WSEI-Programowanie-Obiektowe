@@ -9,42 +9,23 @@ namespace lab_1
         static void Main(string[] args)
         {
 
-            //ĆWICZENIE 1
-            Console.WriteLine("ĆWICZENIE 1");
+
             var money1 = Money.OfWithException(5, Currency.EUR);
             Console.WriteLine(money1.Value + " " + money1.Currency);
-
-            //ĆWICZENIE 2
-            Console.WriteLine("\nĆWICZENIE 2");
             var money2 = Money.ParseValue("13.45", Currency.EUR);
             Console.WriteLine(money2.Value + " " + money2.Currency);
-
-            //ĆWICZENIE 3
-            Console.WriteLine("\nĆWICZENIE 3");
             Console.WriteLine("money2.Currency = " + money2.Currency);
-
-            //ĆWICZENIE 4
-            Console.WriteLine("\nĆWICZENIE 4");
             var result1 = money1 * 0.2m;
             Console.WriteLine(result1.Value + " " + result1.Currency);
-
-            //ĆWICZENIE 5
-            Console.WriteLine("\nĆWICZENIE 5");
             var result2 = money1 + money2;
             Console.WriteLine($"{money1.Value} {money1.Currency} + {money2.Value} {money2.Currency} = {result2.Value} {result2.Currency}");
-
-            //ĆWICZENIE 6
-            Console.WriteLine("\nĆWICZENIE 6");
             Console.WriteLine($"{money1.Value} {money1.Currency} < {money2.Value} {money2.Currency} = {money1 < money2}");
             Console.WriteLine($"{money1.Value} {money1.Currency} > {money2.Value} {money2.Currency} = {money1 > money2}");
 
-            //ĆWICZENIE 7
-            Console.WriteLine("\nĆWICZENIE 7");
             float fmoney = (float)money1;
             Console.WriteLine(money1.Value + " " + money1.Currency);
 
-            //ĆWICZENIE 10
-            Console.WriteLine("\nĆWICZENIE 10");
+
             Student[] register =
             {
                 new Student{ Nazwisko="Kowalski", Imie="Jan", Średnia=3.0m },
@@ -57,8 +38,6 @@ namespace lab_1
             Array.Sort(register);
             register.ToList().ForEach(a => Console.WriteLine(a + " "));
 
-            //ĆWICZENIE 11
-            Console.WriteLine("\nĆWICZENIE 11");
             var money3 = Money.OfWithException(100, Currency.PLN);
             var result3 = money3.ToCurrency(Currency.USD, 4.1m);
             var result4 = money3.ToCurrency(Currency.PLN, 4.1m);
