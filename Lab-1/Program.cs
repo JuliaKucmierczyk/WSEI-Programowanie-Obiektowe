@@ -8,9 +8,6 @@ namespace lab_1
     {
         static void Main(string[] args)
         {
-//          KOD Z PRZYKŁADÓW NA ZAJĘCIACH
-//          var person = Person.OfName("Jakub");
-//          Console.WriteLine(person.FirstName);
 
             //ĆWICZENIE 1
             Console.WriteLine("ĆWICZENIE 1");
@@ -88,8 +85,6 @@ namespace lab_1
             _currency = currency;
         }
 
-        //ĆWICZENIE 1
-        //Zdefiniuj metodę wytwórczą OfWithException, która w przypadku nie możności zbudowania poprawnego obiektu zgłasza wyjątek.
         public static Money OfWithException(decimal value, Currency currency)
         {
             if (value < 0 || Enum.IsDefined(currency) == false)
@@ -98,8 +93,6 @@ namespace lab_1
                 return new Money(value, currency);
         }
 
-        //ĆWICZENIE 2
-        //Zdefiniuj metodę wytwórczą ParseValue(string valueStr, Currency currency), która tworzy obiekt na podstawie łańcucha z wartością kwoty np. ”13,45”.
         public static Money ParseValue(string valueStr, Currency currency)
         {
             decimal value;
@@ -109,8 +102,6 @@ namespace lab_1
             else throw new ArgumentException("Niepoprawna wartość");
         }
 
-        //ĆWICZENIE 3
-        //Zdefiniuj właściwość Currency tylko do zwracania waluty.
         public decimal Value
         {
             get { return _value; }
@@ -120,15 +111,11 @@ namespace lab_1
             get { return _currency; }
         }
 
-        //ĆWICZENIE 4
-        //Zdefiniuj operator mnożenia dla operandów typu decimal i Money.
         public static Money operator *(Money money, decimal factor)
         {
             return OfWithException(money.Value * factor, money.Currency);
         }
 
-        //ĆWICZENIE 5
-        //Zdefiniuj operator dodawania dla dwóch obiektów typu Money. 
         public static Money operator +(Money money1, Money money2)
         {
             if (money1.Currency != money2.Currency)
@@ -137,8 +124,6 @@ namespace lab_1
             return OfWithException(money1.Value + money2.Value, money1.Currency);
         }
 
-        //ĆWICZENIE 6
-        //Zdefiniuj operator < dla klasy Money.
         public static bool operator >(Money a, Money b)
         {
             return a.Value > b.Value;
@@ -148,8 +133,6 @@ namespace lab_1
             return a.Value < b.Value;
         }
 
-        //ĆWICZENIE 7
-        //Zdefiniuj operator jawnego rzutowania do typu float.
         public static implicit operator decimal(Money money)
         {
             return money.Value;
@@ -163,7 +146,7 @@ namespace lab_1
             return (float)money.Value;
         }
     }
-    //ĆWICZENIE 8 i 9
+
     public class Tank
     {
         public readonly int Capacity;
@@ -201,9 +184,6 @@ namespace lab_1
             return true;
         }
 
-        //ĆWICZENIE 8
-        //Zaimplementuje metodę bool consume(int amount), która pobiera ze zbiornika ciecz o objętości w amount.
-        //W sytuacji, gdy niemożliwe jest pobranie takiej ilości cieczy metoda powinna zwrócić false;
         public bool consume(int amount)
         {
             if (amount <= 0)
@@ -214,8 +194,6 @@ namespace lab_1
             return true;
         }
 
-        //ĆWICZENIE 9
-        //Zaimplementuj metodę przelewania z jednego zbiornika do drugiego
         public bool refuel(Tank sourceTank, int amount)
         {
             if (sourceTank.Level <= 0)
@@ -231,14 +209,12 @@ namespace lab_1
         }
     }
 
-    //ĆWICZENIE 10
-    //Dla klasy Student zdefiniuj interfejs IComparable w jednej z poniższych wersji:
-    //Sortowanie wg nazwisk, imion, średniej
     class Student : IComparable
     {
         public string Nazwisko { get; set; }
         public string Imie { get; set; }
         public decimal Średnia { get; set; }
+
         public int CompareTo(Student? otherStudent)
         {
             if (ReferenceEquals(this, otherStudent))
@@ -273,9 +249,6 @@ namespace lab_1
         }
     }
 
-    //ĆWICZENIE 11
-    //Zdefiniuj metodę rozszerzającą klasę Money, która przelicza kwotę na jej równoważną wartość w innej
-    //walucie na podstawie ceny jednej jednostki waluty docelowej
     public static class MoneyExtension
     {
         public static Money ToCurrency(this Money money, Currency currency, decimal scaler)
