@@ -1,0 +1,16 @@
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\Lab-6.exe
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\Lab-6.deps.json
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\Lab-6.runtimeconfig.json
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\Lab-6.runtimeconfig.dev.json
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\Lab-6.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\ref\Lab-6.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\bin\Debug\net5.0\Lab-6.pdb
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.csproj.AssemblyReference.cache
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.AssemblyInfoInputs.cache
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.AssemblyInfo.cs
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.csproj.CoreCompileInputs.cache
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\ref\Lab-6.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.pdb
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-6\Lab-6\obj\Debug\net5.0\Lab-6.genruntimeconfig.cache
