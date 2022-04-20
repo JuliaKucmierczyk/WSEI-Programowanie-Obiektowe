@@ -1,0 +1,16 @@
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\zadania7.exe
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\zadania7.deps.json
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\zadania7.runtimeconfig.json
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\zadania7.runtimeconfig.dev.json
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\zadania7.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\ref\zadania7.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\bin\Debug\net5.0\zadania7.pdb
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.csproj.AssemblyReference.cache
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.AssemblyInfoInputs.cache
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.AssemblyInfo.cs
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.csproj.CoreCompileInputs.cache
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\ref\zadania7.dll
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.pdb
+D:\Users\Julia.Kucmierczyk\source\repos\Lab-7\zadania7\obj\Debug\net5.0\zadania7.genruntimeconfig.cache
